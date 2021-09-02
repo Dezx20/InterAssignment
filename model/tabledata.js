@@ -9,6 +9,8 @@ const tableData = new mongoose.Schema(
         phoneNumber: {
             type: Number,
             required: true,
+            minlength: 9,
+            maxlength: 13,
         },
         email: {
             type: String,

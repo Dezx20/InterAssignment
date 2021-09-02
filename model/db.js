@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-let dbURI = 'mongodb://127.0.0.1/TableDB';
+let dbURI = 'mongodb://127.0.0.1/TableDB1';
 
 if (process.env.NODE_ENV === "production") {
   dbURI = process.env.MONGODB_URI;

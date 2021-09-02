@@ -122,8 +122,8 @@ const sendTableData = async function(req, res) {
     });
 
     let mailOptions = {
-        from: '2009awektoppo@gmail.com',
-        to: 'dezxlexz@gmail.com',
+        from: process.env.FROMEMAIL,
+        to: process.env.TOEMAIL,
         subject: 'Table Details.',
         text: mssg
 
